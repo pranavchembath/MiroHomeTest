@@ -1,77 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="1" failed="0" skipped="2">
+<testng-results ignored="0" total="3" passed="2" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-12T19:04:55 IST" name="Miro Test Suite" finished-at="2023-02-12T19:06:26 IST" duration-ms="90990">
+  <suite started-at="2023-02-12T20:05:45 IST" name="Miro Test Suite" finished-at="2023-02-12T20:08:59 IST" duration-ms="194339">
     <groups>
     </groups>
-    <test started-at="2023-02-12T19:04:55 IST" name="Miro Test" finished-at="2023-02-12T19:06:26 IST" duration-ms="90990">
+    <test started-at="2023-02-12T20:05:45 IST" name="Miro Test" finished-at="2023-02-12T20:08:59 IST" duration-ms="194339">
       <class name="com.miro.signup.SignUpTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.miro.signup.SignUpTest@3aa078fd]" started-at="2023-02-12T19:04:55 IST" name="setUp" finished-at="2023-02-12T19:04:55 IST" duration-ms="21" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.miro.signup.SignUpTest@3aa078fd]" started-at="2023-02-12T20:05:45 IST" name="setUp" finished-at="2023-02-12T20:05:45 IST" duration-ms="28" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateSuccessfulSignUpByCustomer(java.util.HashMap)[pri:0, instance:com.miro.signup.SignUpTest@3aa078fd]" started-at="2023-02-12T19:04:56 IST" name="validateSuccessfulSignUpByCustomer" data-provider="dataSupplier" finished-at="2023-02-12T19:06:18 IST" duration-ms="81978" status="PASS">
+        <test-method signature="validateSuccessfulSignUpByCustomer(java.util.HashMap)[pri:0, instance:com.miro.signup.SignUpTest@3aa078fd]" started-at="2023-02-12T20:05:46 IST" name="validateSuccessfulSignUpByCustomer" data-provider="dataSupplier" finished-at="2023-02-12T20:06:42 IST" duration-ms="56183" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{Runmode=Y, Email=neo9@gmail.com, User=Neo, Browser=Chrome, Password=Password}]]>
+                <![CDATA[{Runmode=Y, Email=neo10@gmail.com, User=Neo, Browser=Chrome, Password=Password}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSuccessfulSignUpByCustomer -->
-        <test-method signature="validateSuccessfulSignUpByCustomer(java.util.HashMap)[pri:0, instance:com.miro.signup.SignUpTest@3aa078fd]" started-at="2023-02-12T19:06:18 IST" name="validateSuccessfulSignUpByCustomer" data-provider="dataSupplier" finished-at="2023-02-12T19:06:18 IST" duration-ms="4" status="SKIP">
+        <test-method signature="validateSuccessfulSignUpByCustomer(java.util.HashMap)[pri:0, instance:com.miro.signup.SignUpTest@3aa078fd]" started-at="2023-02-12T20:06:42 IST" name="validateSuccessfulSignUpByCustomer" data-provider="dataSupplier" finished-at="2023-02-12T20:08:57 IST" duration-ms="134951" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{Runmode=N, Email=max5@gmail.com, User=Leo, Browser=Edge, Password=Password}]]>
+                <![CDATA[{Runmode=Y, Email=max6@gmail.com, User=Leo, Browser=Edge, Password=Password}]]>
               </value>
             </param>
           </params>
-          <exception class="org.testng.SkipException">
-            <message>
-              <![CDATA[Run mode is set to N, hence not executed]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.SkipException: Run mode is set to N, hence not executed
-at com.miro.signup.SignUpTest.validateSuccessfulSignUpByCustomer(SignUpTest.java:59)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSuccessfulSignUpByCustomer -->
-        <test-method signature="validateSuccessfulSignUpByCustomer(java.util.HashMap)[pri:0, instance:com.miro.signup.SignUpTest@3aa078fd]" started-at="2023-02-12T19:06:18 IST" name="validateSuccessfulSignUpByCustomer" data-provider="dataSupplier" finished-at="2023-02-12T19:06:18 IST" duration-ms="3" status="SKIP">
+        <test-method signature="validateSuccessfulSignUpByCustomer(java.util.HashMap)[pri:0, instance:com.miro.signup.SignUpTest@3aa078fd]" started-at="2023-02-12T20:08:57 IST" name="validateSuccessfulSignUpByCustomer" data-provider="dataSupplier" finished-at="2023-02-12T20:08:57 IST" duration-ms="3" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -120,7 +82,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSuccessfulSignUpByCustomer -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.miro.signup.SignUpTest@3aa078fd]" started-at="2023-02-12T19:06:18 IST" name="tearDown" finished-at="2023-02-12T19:06:26 IST" duration-ms="7861" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.miro.signup.SignUpTest@3aa078fd]" started-at="2023-02-12T20:08:57 IST" name="tearDown" finished-at="2023-02-12T20:08:59 IST" duration-ms="2019" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

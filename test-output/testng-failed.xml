@@ -10,7 +10,7 @@
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="validateSuccessfulSignUpByCustomer" invocation-numbers="1 2"/>
+          <include name="validateSuccessfulSignUpByCustomer" invocation-numbers="2"/>
         </methods>
       </class> <!-- com.miro.signup.SignUpTest -->
     </classes>
